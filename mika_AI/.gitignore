@@ -1,0 +1,65 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# 仮想環境
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ======================
+# Flutter / Dart
+# ======================
+# Flutter build files
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Android
+android/.gradle/
+android/app/build/
+*.apk
+*.aar
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Web
+node_modules/
+
+# ======================
+# 共通
+# ======================
+# 環境変数ファイル
+*.env
+
+# IDE 設定ファイル
+.vscode/
+.idea/
+
+# OS 系
+.DS_Store
+Thumbs.db
+
+.mdart_tool/
+.packages
+.pub-cache/
+build/
+ios/Pods/
+android/.gradle/
